@@ -1,35 +1,37 @@
-Food Drive
+## ENTITIES
+
+### Food Drive
 
 main event
 
-Collection Point
+### Collection Point
 
 place where food is donated and collected (supermarket)
 
-Storage Point
+### Storage Point
 
 where food coming from various Collection Points is gathered and stored to ultimately be distributed
 
-Good
+### Good
 
 the actual donation specified by types (pasta, sugar ecc...)
 
-Shipment
+### Shipment
 
 collection of Goods delivered all together
 
-Team Leader
+### Team Leader
 
 responsible for giving food to a Driver with a corresponding packing list
 
-Driver
+### Driver
 
 collect food from one or more Collection Points then delivers it to one Storage Point
 
-Operator
+### Operator
 
 registers packing lists delivered by Drivers, manages Collection Points, manages Team Leaders
 
-Area Leader
+### Area Leader
 
 manages one or more Data Entries, distributes Collection Points to Team Leaders, manages Collection Points
