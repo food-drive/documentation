@@ -5,7 +5,7 @@
 - Description: is the responsible of all the Goods donated in a Donation Point, hands a Shipment of Goods to a Driver
 - Parmissions:
   - Can see/edit the assigned Collection Point
-  - Can add/edit/remove Shipments associated to a Collection Point
+  - Can add/edit/remove Shipments associated to a Collection Point (until a Shipment is approved from an Operator)
 
 ### Driver
 
@@ -15,11 +15,13 @@
 
 ### Operator
 
-Has visibility over Collection Points assigned by the Area Leader
-Can add/remove/edit Collection Points
-Can add/edit Team Leaders
-Can associate one Team Leader to a Collection Point
-Can add/edit/remove Shipments associated to a Collection Point
+- Description: has visibility over a set of Donation Points assigned by the Area Leader, he/she is responsible for manually prompt all the Good of a Shipment for one or more Collection Points
+- Permissions:
+  - Can add/remove/edit Collection Points
+  - Can add/edit Team Leaders
+  - Can associate/change one Team Leader to a Collection Point
+  - Can approve a Shipment associated to a Collection Point
+  - Can add/edit/remove Shipments associated to a Collection Point
 
 ### Area Operator
 
