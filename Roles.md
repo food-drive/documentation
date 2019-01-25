@@ -1,3 +1,5 @@
+## Roles & Permissions
+
 ### Team Leader
 
 Has visibility over a Collection Point
