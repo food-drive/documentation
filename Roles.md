@@ -2,8 +2,16 @@
 
 ### Team Leader
 
-Has visibility over a Collection Point
-Can add/edit/remove Shipments associated to a Collection Point
+- Description: is the responsible of all the Goods donated in a Donation Point, hands a Shipment of Goods to a Driver
+- Parmissions:
+  - Can see/edit the assigned Collection Point
+  - Can add/edit/remove Shipments associated to a Collection Point
+
+### Driver
+
+- Description: has a list of Donation Points from which will collect Goods from, then delivers them to one Collection Point
+- Permissions:
+  - Can see a list of Donation Points he is associated whith
 
 ### Operator
 
