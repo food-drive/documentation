@@ -1,37 +1,37 @@
 ## ENTITIES
 
-### Food Drive
+### Collection Event
 
-main event
+Could be a Food drive (e.g. Colletta Alimentare)
+
+### Donation Point
+
+place where food is donated (e.g. a supermarket)
 
 ### Collection Point
 
-place where food is donated and collected (supermarket)
-
-### Storage Point
-
-where food coming from various Collection Points is gathered and stored to ultimately be distributed
+where goods coming from various Donation Points is gathered and stored in order to distributed
 
 ### Good
 
 the actual donation specified by types (pasta, sugar ecc...)
 
-### Shipment
+### Shipment (or Load)
 
-collection of Goods delivered all together
+Collection of Goods delivered with a shipment
 
 ### Team Leader
 
-responsible for giving food to a Driver with a corresponding packing list
+Responsible of a Donation Point, it handles deliveries of Goods to Drivers
 
 ### Driver
 
-collect food from one or more Collection Points then delivers it to one Storage Point
+Collects goods from one or more Donation Points then delivers it to one Collection Point
 
 ### Operator
 
-registers packing lists delivered by Drivers, manages Collection Points, manages Team Leaders
+Registers packing lists delivered by Drivers, manages Collection Points, manages Team Leaders
 
 ### Area Leader
 
-manages one or more Data Entries, distributes Collection Points to Team Leaders, manages Collection Points
+Manages one or more Operators
